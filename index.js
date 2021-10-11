@@ -89,6 +89,7 @@ var numbers = array.filter(function (num) {
 })
 console.log(numbers)
 
+breakLines()
 
 // Exercice 5 : 
 
@@ -100,6 +101,8 @@ var even = numbers.filter(function (num) {
 
 })
 console.log(even)
+
+breakLines()
 
 var cakes =
     [
@@ -134,9 +137,29 @@ var sold = cakes.filter(function (chocolate) {
     return chocolate.flavor === "chocolate"
 })
 
-var soldOut = sold.map(function (elements){
+var soldOut = sold.map(function (elements) {
     elements.status = "sold out!"
     return elements
 })
 
 console.log(soldOut)
+
+
+
+// Bonus : 
+
+var prompt = require('prompt')
+var getWord = require('random-word-fr')
+
+prompt.start()
+
+var player1
+var player2
+
+var mysteryWord = getWord(1)
+console.log(mysteryWord)
+
+function game() {
+    prompt.get({ name: "try", description:  "blablabla"})
+}
+

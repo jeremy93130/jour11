@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "getword": "^0.1.0",
+    "prompt": "^1.2.0",
+    "random-word-fr": "^1.0.3"
+  }
+}
